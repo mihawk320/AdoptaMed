@@ -1,0 +1,45 @@
+/* Zona del Header */
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+.header{
+    background-color:#f2f2f2;
+}
+
+.header a{
+    font-family: 'Anton', sans-serif;
+    font-size:18px;
+}
+
+.logo{
+    width: 50px;
+}
+
+.header a:hover{
+    color:#AE1A49 !important;
+    transition: all 1.3s ease;
+}
+
+
+/* Fin Zona del Header */
+
+/*Modal */
+
+#fb{
+    width: 7%;
+    float: left;
+}
+#google{
+    width: 15%;
+    float:left;
+}
+.btn1{
+    background-color: #3b5998 !important;  
+    color:white !important;
+    text-decoration: none;
+}
+
+.btn2{
+    background-color: #fd7521 !important;
+}
+
+/*Fin Modal*/
