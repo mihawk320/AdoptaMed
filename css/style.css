@@ -78,3 +78,92 @@
 }
 
 /* Main Final*/
+
+/*
+Fundaciones
+*/
+.cont_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+    .cont_1 h1{
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .cont_1 button{
+        width: 150px;
+        height: 50px;
+        font-size: 1.1rem;
+        background: #7FCFE6;
+        border-radius: 7px;
+        border: none;
+        color: white;
+        transition: all linear 0.3s;
+    }
+    .cont_1 button:hover{
+        background: #4CBDDE; 
+        transition: all linear 0.3s;
+    }
+.cont_2{
+    margin: 0 auto;
+}
+    .cont_2 .cont_busqueda{
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+        margin-bottom: 60px;
+    }
+        .cont_2 .cont_busqueda input{
+            padding: 7px 10px;
+            height: 42px;
+            margin-top: 7px;
+        }
+        .cont_2 .cont_busqueda button{
+            height: 42px;
+            background: #7FCFE6;
+            border: none;
+            color: white;
+            margin-top: 7px;
+        }
+ 
+        .cont_2 .cont_vari_fundaciones .cont_some_funda{
+            display: flex;
+            border-top: solid 1px gray;
+            margin: auto;
+            margin-bottom: 30px;
+            padding-top: 30px;
+        }
+       
+        .cont_2 .cont_vari_fundaciones .cont_some_funda .contenido_funda{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+         
+            .cont_2 .cont_vari_fundaciones .cont_some_funda .contenido_funda p{
+                margin-top: 7px;
+                font-size: 0.9rem
+            }
+            .cont_2 .cont_vari_fundaciones .cont_some_funda .contenido_funda button{
+                margin-top: 5px;
+                align-self: flex-end;
+                width: 120px;
+                height: 40px;
+                font-size: 1rem;
+                background: #7FCFE6;
+                border-radius: 7px;
+                border: none;
+                color: white;
+                transition: all linear 0.3s;
+            }
+            .cont_2 .cont_vari_fundaciones .cont_some_funda .contenido_funda button:hover{
+                background: #4CBDDE; 
+                transition: all linear 0.3s;
+            }
+
+/*
+Fin fundaciones 
+*/
